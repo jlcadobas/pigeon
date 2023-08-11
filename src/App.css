@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  * { 
+    margin: 0; padding: 0; box-sizing: border-box; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App {
+
+    display: grid; grid-template-columns: 20vw 25vw 55vw; grid-template-rows: 100vh;
   }
-}
+  
+  /* .third {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    height: 100vh; } */
 
-.App-link {
-  color: #61dafb;
-}
+  /* :root {
+    --primary: #6D1766; --secondary: #176D1E; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App { 
+    display: grid; grid-template-columns: 60vw 40vw; grid-template-rows: 100vh 100vh; height: 100vh; 
+    background-color: black; color: white; }
+
+  section:nth-child(1) { 
+    background: url(./images/pexels-ketut-subiyanto-4350223.jpg) center/cover no-repeat;
   }
-  to {
-    transform: rotate(360deg);
+
+  section:nth-child(2), form { 
+    display: flex; justify-content: center; align-items: center;  flex-direction: column;
   }
-}
+
+  section:nth-child(2) { gap: 2rem; }
+  form { gap: 1.5rem; }
+
+  p { font-size: 1em; text-align: center; }
+  h1 { font-size: 2.25em; text-align: center; }
+
+  input { 
+    width: 275px; height: 35px; padding: 0.75em; 
+    border-radius: 0.75em; border: 1px solid black; }
+
+  img { 
+    width: 50px; height: 50px;
+    border-radius: 25px; }
+
+  button {
+    width: 125px; padding: 0.75rem;
+    border-radius: 1em; border: none;
+    background-color: var(--primary); color: white; 
+    cursor: pointer; }
+
+  span { color: var(--secondary); cursor: pointer;}
+
+  button:hover { background-color: var(--secondary); }
+  span:hover { color: var(--primary); } */
