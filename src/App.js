@@ -4,6 +4,7 @@ import './App.css';
 import Daisy from './images/Daisy.png';
 import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';
+import Conversation from './components/Conversation';
 
 export default function App() {
 
@@ -74,8 +75,7 @@ export default function App() {
     <div className="App">
       <Sidebar />
       <Chat />
-      <div className="third">
-      </div>
+      <Conversation />
     </div>
   );
 }

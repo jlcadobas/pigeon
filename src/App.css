@@ -4,7 +4,7 @@
 
   .App {
 
-    display: grid; grid-template-columns: 20vw 25vw 55vw; grid-template-rows: 100vh;
+    display: grid; grid-template-columns: 245px 350px calc(100vw - 595px); grid-template-rows: 100vh;
   }
   
   /* .third {
