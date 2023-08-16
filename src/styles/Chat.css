@@ -5,13 +5,14 @@
         border-right: 1px solid #E5E5E5; 
         display: flex; justify-content: flex-start; align-items: center; flex-direction: column; gap: 2rem;}
     
-    h2 { text-align: center; margin: 1rem 0rem;}
+    h2 { text-align: center; margin: 1.25rem 0rem;}
 
     h4 { margin-bottom: 0.25rem;}
 
     input {
         width: 250px; padding: 0.5rem; margin: 0rem auto;
-        border: 1px solid black; border-radius: 10px;}
+        border: 1px solid gray; border-radius: 10px; 
+        background-color:#E5E5E5; color: black;}
 
     .chatList {
 
@@ -21,8 +22,8 @@
 
     .chatListItem {
         height: 80px;
-        display: flex; justify-content: center; align-items: center;
-        padding: 8px;
+        padding: 0rem 1rem;
+        display: flex; justify-content: space-around; align-items: center;
     }
 
     .chatListItem:hover {
@@ -30,4 +31,6 @@
     }
 
     #userProfile {
-        width: 60px; height: 60px; border-radius: 35px; }
+        width: 55px; height: 55px; border-radius: 27.5px; }
+
+    #userChatInfo p { font-size: 14.5px;}
