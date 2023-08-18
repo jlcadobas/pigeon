@@ -8,21 +8,27 @@
         display: flex; justify-items: center; align-items: center; flex-direction: column; gap: 0.75rem;
     }
 
+    /* 75px 220px, 0rem 0.9rem margin */
+    
     a { 
         width: 220px; height: 55px;
         padding: 0rem 1rem;
         display: flex; justify-items: center; align-items: center; flex-direction: row; 
         font-size: 1em; text-decoration: none; }
 
+    .removeWidth { width: 75px; }
+
     a:hover {
         background-color: #E3E3E3; border-radius: 1rem; }
 
     img { 
-        width: 50px; height: 50px;
-        margin: 0rem 0.9rem;}
+        width: 25px; height: 25px;
+        margin: 0rem 0.9rem; }
 
-    #Profile {
-        width: 70px; height: 70px; border-radius: 35px;}
+    .removeMargin {  width: 25px; height: 25px; margin: 0; }
 
-    #Name {
-        margin-bottom: 1rem; }
+    #Profile { width: 70px; height: 70px; border-radius: 35px;}
+
+    #Name { margin-bottom: 1rem; }
+
+    .hideButton { cursor: pointer; }
