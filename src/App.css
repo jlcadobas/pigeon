@@ -1,11 +1,6 @@
 
   * { 
     margin: 0; padding: 0; box-sizing: border-box; }
-
-  .App {
-
-    display: grid; grid-template-columns: 245px 350px calc(100vw - 595px); grid-template-rows: 100vh;
-  }
   
   /* .third {
 
